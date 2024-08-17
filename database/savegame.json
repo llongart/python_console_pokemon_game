@@ -1,0 +1,226 @@
+{
+    "PLAYER": {
+        "NAME": "leitO",
+        "GENDER": "1",
+        "MONEY": 8936,
+        "BADGES": {
+            "BADGE1": 0,
+            "BADGE2": 0,
+            "BADGE3": 0,
+            "BADGE4": 0,
+            "BADGE5": 0,
+            "BADGE6": 0,
+            "BADGE7": 0,
+            "BADGE8": 0
+        },
+        "POKEMONS": [
+            {
+                "NAME": "Charmander",
+                "LEVEL": 6,
+                "TYPE1": "FIRE",
+                "TYPE2": null,
+                "CURRENT_HP": 0,
+                "CURRENT_STATUS": "FAINTED",
+                "ATTACKS": [
+                    [
+                        "SCRATCH",
+                        0.041666666666666664,
+                        0
+                    ],
+                    [
+                        "GROWL",
+                        0.041666666666666664,
+                        32
+                    ]
+                ],
+                "STATS": {
+                    "HP": 21,
+                    "ATTACK": 10,
+                    "DEFENSE": 11,
+                    "SPATTACK": 14,
+                    "SPDEFENSE": 12,
+                    "SPEED": 13
+                },
+                "BASE_STATS": {
+                    "HP": 39,
+                    "ATTACK": 52,
+                    "DEFENSE": 43,
+                    "SPATTACK": 60,
+                    "SPDEFENSE": 50,
+                    "SPEED": 65
+                },
+                "IV": {
+                    "HP": 11,
+                    "ATTACK": 3,
+                    "DEFENSE": 26,
+                    "SPATTACK": 14,
+                    "SPDEFENSE": 17,
+                    "SPEED": 18
+                },
+                "EV": {
+                    "HP": 0,
+                    "ATTACK": 0,
+                    "DEFENSE": 7,
+                    "SPATTACK": 0,
+                    "SPDEFENSE": 0,
+                    "SPEED": 1
+                },
+                "NATURE_TYPE": "MODEST",
+                "NATURE": {
+                    "ATTACK": 0.9,
+                    "DEFENSE": 1,
+                    "SPATTACK": 1.1,
+                    "SPDEFENSE": 1,
+                    "SPEED": 1
+                },
+                "ABILITY": {
+                    "FIRST_ABILITY": "BLAZE",
+                    "SECOND_ABILITY": "",
+                    "HIDDEN_ABILITY": "SOLAR POWER"
+                },
+                "BASE_EXP": 62,
+                "GROWNING_TYPE": "ERRATIC",
+                "CURRENT_EXP": 180,
+                "EXP_NEXT_LEVEL": 406,
+                "EVOLUTION": {
+                    "NAME": "Charmander",
+                    "CONDITION": "16",
+                    "EVOLUTION": "Charmeleon"
+                },
+                "MASTER": 1,
+                "HELD": null,
+                "FRIENDSHIP": 0,
+                "CATCH_RATE": 0
+            }
+        ],
+        "BAG": {
+            "ITEMS": [],
+            "MEDICINE": [
+                {
+                    "NAME": "Potion",
+                    "QUANTITY": 3
+                },
+                {
+                    "NAME": "Super Potion",
+                    "QUANTITY": 1
+                }
+            ],
+            "TM_HM": [],
+            "BERRIES": [],
+            "KEY_ITEMS": [],
+            "FREE_SPACE": []
+        }
+    },
+    "RIVAL": {
+        "NAME": "Rain Mustard",
+        "GENDER": 1,
+        "MONEY": 5000,
+        "BADGES": {
+            "BADGE1": 0,
+            "BADGE2": 0,
+            "BADGE3": 0,
+            "BADGE4": 0,
+            "BADGE5": 0,
+            "BADGE6": 0,
+            "BADGE7": 0,
+            "BADGE8": 0
+        },
+        "POKEMONS": [
+            {
+                "NAME": "Squirtle",
+                "LEVEL": 5,
+                "TYPE1": "WATER",
+                "TYPE2": null,
+                "CURRENT_HP": 19,
+                "CURRENT_STATUS": "FAINTED",
+                "ATTACKS": [
+                    [
+                        "TACKLE",
+                        0.041666666666666664,
+                        35
+                    ],
+                    [
+                        "TAIL WHIP",
+                        0.041666666666666664,
+                        30
+                    ]
+                ],
+                "STATS": {
+                    "HP": 19,
+                    "ATTACK": 11,
+                    "DEFENSE": 11,
+                    "SPATTACK": 10,
+                    "SPDEFENSE": 10,
+                    "SPEED": 10
+                },
+                "BASE_STATS": {
+                    "HP": 44,
+                    "ATTACK": 48,
+                    "DEFENSE": 65,
+                    "SPATTACK": 50,
+                    "SPDEFENSE": 64,
+                    "SPEED": 43
+                },
+                "IV": {
+                    "HP": 3,
+                    "ATTACK": 12,
+                    "DEFENSE": 3,
+                    "SPATTACK": 8,
+                    "SPDEFENSE": 2,
+                    "SPEED": 25
+                },
+                "EV": {
+                    "HP": 0,
+                    "ATTACK": 0,
+                    "DEFENSE": 1,
+                    "SPATTACK": 0,
+                    "SPDEFENSE": 0,
+                    "SPEED": 1
+                },
+                "NATURE_TYPE": "NAUGHTY",
+                "NATURE": {
+                    "ATTACK": 1.1,
+                    "DEFENSE": 1,
+                    "SPATTACK": 1,
+                    "SPDEFENSE": 0.9,
+                    "SPEED": 1
+                },
+                "ABILITY": {
+                    "FIRST_ABILITY": "TORRENT",
+                    "SECOND_ABILITY": "",
+                    "HIDDEN_ABILITY": "RAIN DISH"
+                },
+                "BASE_EXP": 63,
+                "GROWNING_TYPE": "MEDIUM_SLOW",
+                "CURRENT_EXP": 83,
+                "EXP_NEXT_LEVEL": 135,
+                "EVOLUTION": {
+                    "NAME": "Squirtle",
+                    "CONDITION": "16",
+                    "EVOLUTION": "Wartortle"
+                },
+                "MASTER": 1,
+                "HELD": null,
+                "FRIENDSHIP": 0,
+                "CATCH_RATE": 0
+            }
+        ],
+        "BAG": {
+            "ITEMS": [],
+            "MEDICINE": [
+                {
+                    "NAME": "Potion",
+                    "QUANTITY": 3
+                },
+                {
+                    "NAME": "Super Potion",
+                    "QUANTITY": 1
+                }
+            ],
+            "TM_HM": [],
+            "BERRIES": [],
+            "KEY_ITEMS": [],
+            "FREE_SPACE": []
+        }
+    }
+}
