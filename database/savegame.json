@@ -1,8 +1,8 @@
 {
     "PLAYER": {
-        "NAME": "leitO",
+        "NAME": "Harvey",
         "GENDER": "1",
-        "MONEY": 9416,
+        "MONEY": 8360,
         "BADGES": {
             "BADGE1": 0,
             "BADGE2": 0,
@@ -16,30 +16,35 @@
         "POKEMONS": [
             {
                 "NAME": "Charmander",
-                "LEVEL": 6,
+                "LEVEL": 8,
                 "TYPE1": "FIRE",
                 "TYPE2": null,
-                "CURRENT_HP": 7,
-                "CURRENT_STATUS": "FAINTED",
+                "CURRENT_HP": 12,
+                "CURRENT_STATUS": "NORMAL",
                 "ATTACKS": [
                     [
                         "SCRATCH",
                         0.041666666666666664,
-                        5
+                        11
                     ],
                     [
                         "GROWL",
                         0.041666666666666664,
-                        32
+                        37
+                    ],
+                    [
+                        "EMBER",
+                        0.041666666666666664,
+                        23
                     ]
                 ],
                 "STATS": {
-                    "HP": 21,
-                    "ATTACK": 10,
-                    "DEFENSE": 11,
-                    "SPATTACK": 14,
+                    "HP": 25,
+                    "ATTACK": 16,
+                    "DEFENSE": 12,
+                    "SPATTACK": 16,
                     "SPDEFENSE": 12,
-                    "SPEED": 13
+                    "SPEED": 16
                 },
                 "BASE_STATS": {
                     "HP": 39,
@@ -51,26 +56,26 @@
                 },
                 "IV": {
                     "HP": 11,
-                    "ATTACK": 3,
-                    "DEFENSE": 26,
-                    "SPATTACK": 14,
-                    "SPDEFENSE": 17,
-                    "SPEED": 18
+                    "ATTACK": 22,
+                    "DEFENSE": 4,
+                    "SPATTACK": 20,
+                    "SPDEFENSE": 13,
+                    "SPEED": 19
                 },
                 "EV": {
                     "HP": 0,
                     "ATTACK": 0,
-                    "DEFENSE": 8,
+                    "DEFENSE": 7,
                     "SPATTACK": 0,
                     "SPDEFENSE": 0,
                     "SPEED": 1
                 },
-                "NATURE_TYPE": "MODEST",
+                "NATURE_TYPE": "NAUGHTY",
                 "NATURE": {
-                    "ATTACK": 0.9,
+                    "ATTACK": 1.1,
                     "DEFENSE": 1,
-                    "SPATTACK": 1.1,
-                    "SPDEFENSE": 1,
+                    "SPATTACK": 1,
+                    "SPDEFENSE": 0.9,
                     "SPEED": 1
                 },
                 "ABILITY": {
@@ -79,9 +84,9 @@
                     "HIDDEN_ABILITY": "SOLAR POWER"
                 },
                 "BASE_EXP": 62,
-                "GROWNING_TYPE": "ERRATIC",
-                "CURRENT_EXP": 235,
-                "EXP_NEXT_LEVEL": 406,
+                "GROWNING_TYPE": "FLUCTUATING",
+                "CURRENT_EXP": 17,
+                "EXP_NEXT_LEVEL": 276,
                 "EVOLUTION": {
                     "NAME": "Charmander",
                     "CONDITION": "16",
@@ -146,12 +151,12 @@
                     ]
                 ],
                 "STATS": {
-                    "HP": 19,
-                    "ATTACK": 11,
-                    "DEFENSE": 11,
+                    "HP": 20,
+                    "ATTACK": 9,
+                    "DEFENSE": 10,
                     "SPATTACK": 10,
-                    "SPDEFENSE": 10,
-                    "SPEED": 10
+                    "SPDEFENSE": 12,
+                    "SPEED": 9
                 },
                 "BASE_STATS": {
                     "HP": 44,
@@ -162,12 +167,12 @@
                     "SPEED": 43
                 },
                 "IV": {
-                    "HP": 3,
-                    "ATTACK": 12,
-                    "DEFENSE": 3,
-                    "SPATTACK": 8,
-                    "SPDEFENSE": 2,
-                    "SPEED": 25
+                    "HP": 29,
+                    "ATTACK": 1,
+                    "DEFENSE": 14,
+                    "SPATTACK": 12,
+                    "SPDEFENSE": 5,
+                    "SPEED": 1
                 },
                 "EV": {
                     "HP": 0,
@@ -175,14 +180,14 @@
                     "DEFENSE": 1,
                     "SPATTACK": 0,
                     "SPDEFENSE": 0,
-                    "SPEED": 1
+                    "SPEED": 0
                 },
-                "NATURE_TYPE": "NAUGHTY",
+                "NATURE_TYPE": "GENTLE",
                 "NATURE": {
-                    "ATTACK": 1.1,
-                    "DEFENSE": 1,
+                    "ATTACK": 1,
+                    "DEFENSE": 0.9,
                     "SPATTACK": 1,
-                    "SPDEFENSE": 0.9,
+                    "SPDEFENSE": 1.1,
                     "SPEED": 1
                 },
                 "ABILITY": {
@@ -192,7 +197,7 @@
                 },
                 "BASE_EXP": 63,
                 "GROWNING_TYPE": "MEDIUM_SLOW",
-                "CURRENT_EXP": 83,
+                "CURRENT_EXP": 0,
                 "EXP_NEXT_LEVEL": 135,
                 "EVOLUTION": {
                     "NAME": "Squirtle",

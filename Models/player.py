@@ -1,6 +1,6 @@
-from Models.bag import *
-from Models.storage import *
-from constants import *
+from constants import TRAINER_BADGES
+from Models.bag import Bag
+from Models.storage import Storage
 
 class Player:
 

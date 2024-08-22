@@ -12,8 +12,8 @@ class UI:
         for char in string:
             stdout.write(char)
             stdout.flush()
-            sleep(0.00)
+            sleep(0.00) #0.04
             i += 1
             
             if i == len(string):
-                sleep(0.0)    
+                sleep(0) #1   

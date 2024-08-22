@@ -1,13 +1,14 @@
+
+from constants import *
 from Models.turn import Turn
 from Models.command import Command
-from constants import *
-from Models.pokemon import *
-from Models.player import *
-from Models.attack import *
-from Models.item import *
-from Models.ui import *
-from keyboard import *
+from Models.pokemon import Pokemon
+from Models.player import Player
+from Models.attack import Attack
+from Models.ui import UI
+from keyboard import is_pressed
 from time import time
+from json import loads
 from random import random, randint
 
 class Battle:
@@ -18,8 +19,8 @@ class Battle:
         self.pokemon1 = self.player1.pokemons[0]
         self.pokemon2 = self.player2.pokemons[0]
         self.weather = weather
-        self.actual_turn = 0
-
+        self.actual_turn = 0  
+        
     # Check if battle has finished
     def is_finished(self):
         finished = self.pokemon1.current_hp <= 0 or self.pokemon2.current_hp <= 0
@@ -390,7 +391,7 @@ class Battle:
         print(self.pokemon1.name + " has "+ str(self.pokemon1.current_hp) + "/" + str(self.pokemon1.stats[HP]) + " HP")
         print(self.pokemon2.name + " has "+ str(self.pokemon2.current_hp) + "/" + str(self.pokemon2.stats[HP]) + " HP")
 
-    def compute_ev_earned(self, winner: Pokemon, defeated: Pokemon):
+    def compute_ev_earned(self, winner: Pokemon, defeated: Pokemon):    
         global db_base_ev_list
 
         # Get Base Exp and EVs yield by pokemon name

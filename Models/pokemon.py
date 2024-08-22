@@ -1,7 +1,7 @@
 from constants import *
-from Models.attack import *
-from Models.ui import *
-from json import *
+from Models.attack import Attack
+from Models.ui import UI
+from json import loads
 
 class Pokemon:
 
@@ -210,7 +210,6 @@ class Pokemon:
             SPEED: db_base_ev_list[pokevolution[NAME]][SPEED_YIELD]
         }
 
-        
         attack1 = db_attack_list[pokemon.attacks[0].name]
         evolution.attacks.insert(0, Attack(attack1[NAME], attack1[TYPE], attack1[CATEGORY], int(attack1[POWER]), int(attack1[ACCURACY]), int(attack1[PP]), pokemon.attacks[0].stage))
         if len(pokemon.attacks) == 2:

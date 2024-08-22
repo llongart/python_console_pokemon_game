@@ -1,7 +1,6 @@
 from constants import *
-from Models.ui import *
-from Models.player import *
-from Models.pokemon import *
+from Models.ui import UI
+from Models.pokemon import Pokemon
 from os import system
 
 class Bag:
@@ -534,7 +533,7 @@ class Bag:
         except Exception:
                 db_attack_list = None 
         
-        # system('cls')
+        system('cls')
         i = 1
         for move in pokemon.attacks:
             formated_string = "{0}. {1} ({2}/{3})".format(str(i), move.name, str(move.pp), str(db_attack_list[move.name][PP]))
@@ -966,7 +965,7 @@ class Bag:
         except Exception:
                 db_attack_list = None 
         
-        # system('cls')
+        system('cls')
         i = 1
         for move in pokemon.attacks:
             formated_string = "{0}. {1} ({2}/{3})".format(str(i), move.name, str(move.pp), str(db_attack_list[move.name][PP]))

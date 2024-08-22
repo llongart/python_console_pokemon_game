@@ -1,23 +1,23 @@
+from constants import *
+from Models.player import Player
+from Models.pokemon import Pokemon
+from Models.attack import Attack
+from Models.battle import Battle
+from Models.command import Command
+from Models.turn import Turn
+from Models.item import Item
+from Models.ui import UI
+from Models.bag import Bag
+from keyboard import is_pressed
 from random import choice, randint
 from os import system
-from json import *
-from constants import *
-from Models.player import *
-from Models.pokemon import *
-from Models.attack import *
-from Models.battle import *
-from Models.command import *
-from Models.turn import *
-from Models.item import *
-from Models.ui import *
-from Models.bag import *
-from math import *
-from keyboard import *
+from json import loads, dump
 
 # https://www.youtube.com/watch?v=_6KKQvScwjA 
 
 
 def get_db_pokemon():
+    global path_pokedex
     # Get all pokemons with types and base stats
     try:
         with open(path_pokedex, 'r') as pokedex:
@@ -29,6 +29,7 @@ def get_db_pokemon():
     return db_pokemon_list
 
 def get_db_base_exp_ev():
+    global path_base_ev
     # Get Base Exp and EVs yield by pokemon name
     try:    
         with open(path_base_ev, 'r') as baseExp_EV:
@@ -39,6 +40,7 @@ def get_db_base_exp_ev():
     return db_base_ev_list
 
 def get_db_attacks():
+    global path_attacks
     # Get the moves list
     try:
         with open(path_attacks, 'r') as attacks:
@@ -49,6 +51,7 @@ def get_db_attacks():
     return db_attack_list
 
 def get_db_abilities():
+    global path_abilities
     # Get abilities
     try:
         with open(path_abilities, 'r') as abilities:
@@ -60,6 +63,7 @@ def get_db_abilities():
     return db_abilities
 
 def get_db_learnsets():
+    global path_learnsets
     # Get learnsets
     try:
         with open(path_learnsets, 'r') as learnsets:
@@ -70,6 +74,7 @@ def get_db_learnsets():
     return db_learnsets    
 
 def get_db_savegame():
+    global path_savegame
     # Get savegame
     try:
         with open(path_savegame, 'r') as savegame:
@@ -91,7 +96,7 @@ def get_database():
 
 # Player/Rival data from savedata
 #   object = PLAYER or object = RIVAL
-def get_trainer_data_from_savegame(player_obj):
+def get_trainer_data_from_savegame(player_obj):    
     player = Player(db_savegame[player_obj][GENDER], db_savegame[player_obj][NAME])
     player.badges = db_savegame[player_obj][BADGES]
     
@@ -768,7 +773,7 @@ def startbattle(battle: Battle):
     battle.pokemon1.in_use = battle.pokemon2.in_use = True
     
     while not battle.is_finished():
-        
+   
         print("Weather: " + battle.weather + "\n")
         
         # Command

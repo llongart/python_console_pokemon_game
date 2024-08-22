@@ -1,8 +1,8 @@
-from bs4 import BeautifulSoup
-from requests import *
-from json import *
 from constants import *
-from Models.attack import *
+from bs4 import BeautifulSoup
+from requests import get
+from json import dump
+# from Models.attack import Attack
 
 def get_pokedex():
     url = 'https://pokemondb.net/pokedex/all'

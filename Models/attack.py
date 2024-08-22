@@ -1,5 +1,5 @@
-from random import *
-from constants import *
+from constants import ST_NORMAL, ST_CONFUSION
+from random import randint
 
 class Attack:
 
