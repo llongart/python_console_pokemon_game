@@ -2,7 +2,7 @@
     "PLAYER": {
         "NAME": "leitO",
         "GENDER": "1",
-        "MONEY": 8936,
+        "MONEY": 9416,
         "BADGES": {
             "BADGE1": 0,
             "BADGE2": 0,
@@ -19,13 +19,13 @@
                 "LEVEL": 6,
                 "TYPE1": "FIRE",
                 "TYPE2": null,
-                "CURRENT_HP": 0,
+                "CURRENT_HP": 7,
                 "CURRENT_STATUS": "FAINTED",
                 "ATTACKS": [
                     [
                         "SCRATCH",
                         0.041666666666666664,
-                        0
+                        5
                     ],
                     [
                         "GROWL",
@@ -60,7 +60,7 @@
                 "EV": {
                     "HP": 0,
                     "ATTACK": 0,
-                    "DEFENSE": 7,
+                    "DEFENSE": 8,
                     "SPATTACK": 0,
                     "SPDEFENSE": 0,
                     "SPEED": 1
@@ -80,7 +80,7 @@
                 },
                 "BASE_EXP": 62,
                 "GROWNING_TYPE": "ERRATIC",
-                "CURRENT_EXP": 180,
+                "CURRENT_EXP": 235,
                 "EXP_NEXT_LEVEL": 406,
                 "EVOLUTION": {
                     "NAME": "Charmander",
@@ -131,7 +131,7 @@
                 "LEVEL": 5,
                 "TYPE1": "WATER",
                 "TYPE2": null,
-                "CURRENT_HP": 19,
+                "CURRENT_HP": 0,
                 "CURRENT_STATUS": "FAINTED",
                 "ATTACKS": [
                     [

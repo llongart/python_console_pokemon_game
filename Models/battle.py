@@ -1,7 +1,6 @@
 from Models.turn import Turn
 from Models.command import Command
-import constants
-# from constants import *
+from constants import *
 from Models.pokemon import *
 from Models.player import *
 from Models.attack import *
